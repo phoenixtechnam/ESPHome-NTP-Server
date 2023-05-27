@@ -58,7 +58,7 @@ text_sensor:
 external_components:
   source:
     type: git
-    url: [https://github.com/RobertJN64/ESPHome-NTP-Server](https://github.com/phoenixtechnam/ESPHome-NTP-Server)
+    url: https://github.com/phoenixtechnam/ESPHome-NTP-Server
   refresh: 30s
   components: [ ntp_server, ntp_server_info, time ]
 ```
